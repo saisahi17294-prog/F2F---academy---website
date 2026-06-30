@@ -1,0 +1,335 @@
+{
+  "site": {
+    "name": "Foundation To Future Academy",
+    "tagline": "Academic Partner in Excellence",
+    "title": "Foundation To Future Academy | School Academic Excellence Partner",
+    "description": "Partner with Foundation To Future Academy for school-integrated Academic Excellence Programs in Mathematics, Physics, Chemistry and Biology for Grades 6-10.",
+    "keywords": "Academic Excellence Program, School Partnership, STEM foundation, JEE foundation, NEET foundation, curriculum integration, Grades 6-10, school academic partner",
+    "author": "Foundation To Future Academy",
+    "canonical": "https://www.foundationtofutureacademy.com/",
+    "url": "https://www.foundationtofutureacademy.com/",
+    "logo": "logo_2(2).png",
+    "ogImage": "https://www.foundationtofutureacademy.com/logo_2(2).png",
+    "phone": "9347659286",
+    "pdfBrochure": "FTFaep.pdf",
+    "year": 2026
+  },
+  "announcement": "Now Scheduling Academic Year 2026-27 Integrations: Custom foundation syllabus setups inside school timetables.",
+  "nav": [
+    { "id": "home", "label": "Home" },
+    { "id": "about", "label": "About Us" },
+    { "id": "partnership", "label": "School Partnership" },
+    { "id": "programmes", "label": "AEP Program (Grades 6-10)" },
+    { "id": "tracker", "label": "Syllabus & Tests" },
+    { "id": "why", "label": "Why F2F" },
+    { "id": "contact", "label": "Contact Us" }
+  ],
+  "hero": {
+    "tagline": "Academic Excellence Program (AEP)",
+    "headline": "Empowering Schools.",
+    "accentHeadline": "Enabling Excellence.",
+    "paragraph": "Foundation To Future Academy partners directly with schools to deliver our flagship foundation curriculum. We build deep, structured capabilities in Mathematics, Physics, Chemistry, and Biology to prepare students for school boards and key competitive systems like JEE & NEET from the early stages.",
+    "ctaPrimary": "Partner with Us",
+    "ctaSecondary": "Explore AEP Curriculum",
+    "featureCards": [
+      {
+        "icon": "book-open",
+        "title": "Joint Foundation Course",
+        "description": "Four core subjects (Maths, Physics, Chem, Biology) mapping directly to board exams and early competitive foundations.",
+        "color": "bg-orange-50 text-orange-500"
+      },
+      {
+        "icon": "calendar",
+        "title": "Consistent Schedule Model",
+        "description": "Exactly 3 sessions per section each week. Fits neatly into existing school schedules without timeline disruptions.",
+        "color": "bg-navy-50 text-navy-900"
+      },
+      {
+        "icon": "notepad-text",
+        "title": "Physical Periodic Assessments",
+        "description": "Regular hand-graded exams, visual worksheets, and comprehensive physical reports for student diagnostics.",
+        "color": "bg-slate-100 text-slate-700"
+      }
+    ]
+  },
+  "problems": [
+    {
+      "icon": "frown",
+      "title": "Textbook Memorization Loop",
+      "description": "Students often solve formulas only in predictable formats, failing when identical concepts are framed differently.",
+      "badge": "bg-rose-50 text-rose-500"
+    },
+    {
+      "icon": "shield-alert",
+      "title": "Olympiad & Competitive Gap",
+      "description": "Standard curricula do not provide early, structured exposure to JEE and NEET logic formats, leaving students underprepared for high-stakes tests.",
+      "badge": "bg-amber-50 text-amber-500"
+    },
+    {
+      "icon": "users-round",
+      "title": "Faculty Workload Barriers",
+      "description": "Full-time board teachers face intense day-to-day curriculum timelines, making it difficult to offer consistent competitive mentoring.",
+      "badge": "bg-orange-50 text-orange-500"
+    },
+    {
+      "icon": "trending-down",
+      "title": "Abstract Concepts Without Context",
+      "description": "Science concepts are often memorized as definitions rather than understood through logical proofs and physical principles.",
+      "badge": "bg-indigo-50 text-indigo-500"
+    }
+  ],
+  "methodology": {
+    "intro": "Our academic partnership model (Assess → Plan → Teach → Train → Test → Analyze → Improve) ensures sustainable outcomes without altering your core school management functions.",
+    "benefits": [
+      "Comprehensive, structured lesson mapping matching your school calendar",
+      "Collaborative, expert teacher support and orientation workshops"
+    ],
+    "steps": [
+      { "title": "Onsite Need Assessment", "description": "We audit current logical frameworks of students to construct the syllabus roadmap." },
+      { "title": "Structured Curriculum Plan", "description": "We align the AEP weekly flow exactly with school holidays and examinations." },
+      { "title": "Expert Faculty Teaching", "description": "We deliver precisely 3 focused foundational sessions per week per section." },
+      { "title": "Physical Review Diagnostics", "description": "F2F team prints, grades, and tracks outcomes via customized paper reports." }
+    ]
+  },
+  "values": ["Discipline", "Dedication", "Determination", "Perseverance", "Excellence"],
+  "leadership": [
+    {
+      "name": "[Academic Director Name]",
+      "role": "Director of Curriculum",
+      "description": "Leads program development, synchronizing secondary school schedules with foundational science blueprints."
+    },
+    {
+      "name": "[Mathematics Lead Name]",
+      "role": "Head of Mathematics",
+      "description": "Specializes in logical reasoning structures, mathematical proof models, and early IIT-JEE preparation."
+    },
+    {
+      "name": "[Science Lead Name]",
+      "role": "Head of Physical Sciences",
+      "description": "Structures physics kinematics, vector concepts, and chemistry formulation exercises for pre-engineering tracks."
+    },
+    {
+      "name": "[Academic Coordinator Name]",
+      "role": "Head of School Operations",
+      "description": "Coordinates scheduling, physical report distribution, and weekly class coordination with partner schools."
+    }
+  ],
+  "partnership": {
+    "headline": "The F2F Academy Academic Integration Model",
+    "description": "We partner closely with schools to deliver high-quality, concept-based instruction. We teach exclusively the foundational subjects of Mathematics, Physics, Chemistry, and Biology to support the long-term success of prospective JEE and NEET candidates.",
+    "offerLabel": "Core Partnership Offering",
+    "offerTitle": "Academic Excellence Program (AEP)",
+    "offerDescription": "A comprehensive, curriculum-aligned academic program for Grades 6 through 10. We deliver exactly 3 sessions per week per section during school hours, offering structured study materials, conceptual training, and regular testing.",
+    "benefits": ["Maths & Physics focus", "Chem & Biology focus", "Weekly Worksheets", "Physical Monthly Reports"],
+    "brochure": {
+      "title": "Download Academic Brochure",
+      "description": "Explore integration models, course layouts, and core timelines.",
+      "file": "FTFaep.pdf",
+      "buttonText": "Download PDF Brochure"
+    }
+  },
+  "programmes": {
+    "heroTag": "Our Core Pathway",
+    "heroTitle": "Academic Excellence Program (AEP)",
+    "heroDescription": "A unified foundational course for both JEE and NEET combined. Focused on four core subjects for Grades 6 through 10, integrated smoothly with your school timetable.",
+    "includeTag": "What the Course Includes",
+    "includeTitle": "Comprehensive Pre-Foundation Curriculum",
+    "includeText": "The Academic Excellence Program (AEP) is designed as a physical, in-school integration module. Rather than teaching basic school homework, our expert STEM educators utilize class periods to teach core derivations, numerical calculation mechanics, and problem-solving.",
+    "includePoints": [
+      "Printed Weekly Worksheets: Given directly to students during sessions to apply conceptual principles step-by-step.",
+      "Unified JEE / NEET Foundation: Topics are carefully constructed to support both engineering logic and medical classification.",
+      "Timetable Synced: Exactly 3 classes per section each week, scheduled as standard periods during school hours.",
+      "Diagnostics & Progress Profiles: Hand-graded periodic evaluations with physical scorecard deliveries."
+    ],
+    "cardTitle": "Combined NEET & JEE Track",
+    "cardText": "Strong mathematical proofing combined with comprehensive organic classification systems built directly into the school curriculum."
+  },
+  "gradeTabs": [
+    {
+      "grade": 6,
+      "label": "Grade 6",
+      "title": "Pre-Foundation Building",
+      "expectation": "Smoothly transitions students from standard primary arithmetic to early deductive proofs and rigorous analytical observations.",
+      "subjects": [
+        { "title": "Mathematics", "items": ["Number Systems (Factors, Primes, LCM/HCF)", "Integers & Fractional Representations", "Basic Geometrical Shapes & Angles", "Introduction to Algebraic Expressions"] },
+        { "title": "Physics", "items": ["Motion and Unit Conversions", "Light, Shadows and Reflections", "Electric Currents and Circuit Elements", "Magnetic Poles and Inductions"] },
+        { "title": "Chemistry", "items": ["Sorting Materials into Groups", "Separation of Solid-Liquid Mixtures", "Physical vs. Chemical Changes", "Constituents of Water and Air"] },
+        { "title": "Biology", "items": ["Food Sources & Components (Vitamins, Proteins)", "Plants: Root Structures & Leaf Venation", "Body Movements & Skeletal Joints", "Living Organisms & Environmental Niches"] }
+      ]
+    },
+    {
+      "grade": 7,
+      "label": "Grade 7",
+      "title": "Quantitative Skill Development",
+      "expectation": "Develops numerical computation speed, critical deduction habits, and early analytical models using practical equations.",
+      "subjects": [
+        { "title": "Mathematics", "items": ["Integers: Properties & Calculations", "Fractions, Decimals, & Rational Equations", "Algebraic Equations in One Variable", "Lines, Angles & Properties of Triangles"] },
+        { "title": "Physics", "items": ["Heat and Thermal Properties", "Wind, Storms and Atmospheric Pressures", "Motion, Speed, and Time Formulations", "Electric Circuits, Conductors & Light Mirrors"] },
+        { "title": "Chemistry", "items": ["Acids, Bases, Salts (Indicators, pH introduction)", "Physical and Chemical Changes (Rusting, Crystals)", "Fibres: Natural & Synthetic Formulations", "Water Cycles & Soil Chemistry"] },
+        { "title": "Biology", "items": ["Photosynthesis and Autotrophic Nutrition", "Animal Nutrition (Human Digestive System)", "Aerobic & Anaerobic Respiration", "Circulation: Blood, Heart & Plant Transport"] }
+      ]
+    },
+    {
+      "grade": 8,
+      "label": "Grade 8",
+      "title": "Rigorous Conceptual Analysis",
+      "expectation": "Focuses on multi-step geometry proofs, mechanical calculations, cellular frameworks, and the algebraic principles that prepare students for high school.",
+      "subjects": [
+        { "title": "Mathematics", "items": ["Rational Numbers & Number Lines", "Linear Equations with Multi-Variables", "Properties of Polygons & Quadrilaterals", "Exponents, Powers & Mensuration Proofs"] },
+        { "title": "Physics", "items": ["Force, Pressure, and Liquid Pressures", "Friction: Static, Sliding, and Rolling", "Sound: Amplitude, Frequency & Echo Mechanics", "Chemical Effects of Electric Current"] },
+        { "title": "Chemistry", "items": ["Plastics and Polymers Formulations", "Metals and Non-Metals (Reactivity Series)", "Petroleum, Coal, & Fossil Fuel Properties", "Combustion, Flames & Calorific Values"] },
+        { "title": "Biology", "items": ["Crop Production & Modern Irrigation Systems", "Microorganisms: Pathogens, Fermentations", "Cell: Organelles, Plant vs. Animal Structures", "Animal Reproduction & Metamorphosis"] }
+      ]
+    },
+    {
+      "grade": 9,
+      "label": "Grade 9",
+      "title": "Advanced Foundational Core",
+      "expectation": "Aligns fully with school boards while introducing early Olympiad and JEE/NEET patterns, focusing on complex mathematical proofs and chemical mole concepts.",
+      "subjects": [
+        { "title": "Mathematics", "items": ["Real Numbers & Rationalization Proofs", "Polynomials & Factor Theorem", "Coordinate Geometry (Slope, Distance Formula)", "Lines, Angles & Triangle Congruence Theorems"] },
+        { "title": "Physics", "items": ["Kinematics: Velocity, Equations of Motion", "Forces and Newton's Laws of Motion", "Universal Law of Gravitation & Acceleration due to Gravity", "Work, Mechanical Energy & Sound wave mechanics"] },
+        { "title": "Chemistry", "items": ["Matter in Surroundings & Latent Heats", "Mixtures, Colloids & Solubility Curves", "Atoms, Molecules & Mole Concept (Calculation-focused)", "Structure of the Atom & Isotopes/Isobars"] },
+        { "title": "Biology", "items": ["Cell: Plasma Membrane, Nucleus, Organelles", "Plant Tissues (Meristematic, Permanent) & Animal Tissues", "Classification Principles & Diversity basics", "Why Do We Fall Ill (Infectious Diseases)"] }
+      ]
+    },
+    {
+      "grade": 10,
+      "label": "Grade 10",
+      "title": "Advanced School-JEE Integration",
+      "expectation": "Synthesizes board preparation with fundamental engineering electricity equations, organic carbon chemistry, and rigorous life process analysis.",
+      "subjects": [
+        { "title": "Mathematics", "items": ["Quadratic Equations & Complex Roots Analysis", "Arithmetic Progressions (Series, Summing Formulas)", "Introduction to Trigonometry & Identities", "Similar Triangles & Tangents to Circles"] },
+        { "title": "Physics", "items": ["Light: Reflection, Spherical Mirrors, Lens Formulas", "Refraction, Dispersion, Human Eye Mechanics", "Electricity: Ohm's Law, Resistance Networks, Heating", "Magnetic Effects, Solenoid Principles & Induction"] },
+        { "title": "Chemistry", "items": ["Chemical Reactions & Stoichiometry Equations", "Acids, Bases & pH Calculations", "Carbon & Organic Chemistry (Nomenclature)", "Metals, Non-Metals & Basic Metallurgy"] },
+        { "title": "Biology", "items": ["Life Processes (Nutrition, Respiration, Circulation)", "Control & Nervous Coordination, Hormonal Balance", "Asexual & Sexual Reproduction Mechanics", "Heredity, Monohybrid Crosses, Evolution Fundamentals"] }
+      ]
+    }
+  ],
+  "tracker": {
+    "heroTag": "Academic Year 2026-27 Framework",
+    "heroTitle": "Syllabus Milestones & Chapter Exam Dates",
+    "heroDescription": "Select a Grade tab below to view our systematic progress status alongside exact chapter-wise evaluation dates. (Exam dates are presently marked as NA and will be synchronized dynamically with your specific school calendar slots).",
+    "grades": [6, 7, 8, 9, 10],
+    "data": {
+      "6": [
+        { "subject": "Mathematics", "chapter": "Number Systems (Factors, Primes, LCM/HCF)", "status": "Completed", "examDate": "NA" },
+        { "subject": "Mathematics", "chapter": "Integers & Fractional Representations", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Motion and Unit Conversions", "status": "Completed", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Light, Shadows and Reflections", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Sorting Materials into Groups", "status": "Completed", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Separation of Solid-Liquid Mixtures", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Food Sources & Components (Vitamins, Proteins)", "status": "Completed", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Plants: Root Structures & Leaf Venation", "status": "In Progress", "examDate": "NA" }
+      ],
+      "7": [
+        { "subject": "Mathematics", "chapter": "Integers: Properties & Calculations", "status": "Completed", "examDate": "NA" },
+        { "subject": "Mathematics", "chapter": "Fractions, Decimals, & Rational Equations", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Heat and Thermal Properties", "status": "Completed", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Wind, Storms and Atmospheric Pressures", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Acids, Bases, Salts (Indicators, pH Intro)", "status": "Completed", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Physical and Chemical Changes (Rusting/Crystals)", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Photosynthesis and Autotrophic Nutrition", "status": "Completed", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Animal Nutrition (Human Digestive System)", "status": "In Progress", "examDate": "NA" }
+      ],
+      "8": [
+        { "subject": "Mathematics", "chapter": "Rational Numbers & Number Lines", "status": "Completed", "examDate": "NA" },
+        { "subject": "Mathematics", "chapter": "Linear Equations with Multi-Variables", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Force, Pressure, and Liquid Pressures", "status": "Completed", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Friction: Static, Sliding, and Rolling", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Plastics and Polymers Formulations", "status": "Completed", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Metals and Non-Metals (Reactivity Series)", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Crop Production & Modern Irrigation Systems", "status": "Completed", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Microorganisms: Pathogens, Fermentations", "status": "In Progress", "examDate": "NA" }
+      ],
+      "9": [
+        { "subject": "Mathematics", "chapter": "Real Numbers & Rationalization Proofs", "status": "Completed", "examDate": "NA" },
+        { "subject": "Mathematics", "chapter": "Polynomials & Factor Theorem", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Kinematics: Velocity, Equations of Motion", "status": "Completed", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Forces and Newton's Laws of Motion", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Matter in Surroundings & Latent Heats", "status": "Completed", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Mixtures, Colloids & Solubility Curves", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Cell: Plasma Membrane, Nucleus, Organelles", "status": "Completed", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Why Do We Fall Ill (Infectious Diseases)", "status": "Planned", "examDate": "NA" }
+      ],
+      "10": [
+        { "subject": "Mathematics", "chapter": "Quadratic Equations & Complex Roots Analysis", "status": "Completed", "examDate": "NA" },
+        { "subject": "Mathematics", "chapter": "Arithmetic Progressions (Series, Summing Formulas)", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Light: Reflection, Spherical Mirrors, Lens Formulas", "status": "Completed", "examDate": "NA" },
+        { "subject": "Physics", "chapter": "Refraction, Dispersion, Human Eye Mechanics", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Chemical Reactions & Stoichiometry Equations", "status": "Completed", "examDate": "NA" },
+        { "subject": "Chemistry", "chapter": "Acids, Bases & pH Calculations", "status": "In Progress", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Life Processes (Nutrition, Respiration, Circulation)", "status": "Completed", "examDate": "NA" },
+        { "subject": "Biology", "chapter": "Heredity, Monohybrid Crosses, Evolution Fundamentals", "status": "Planned", "examDate": "NA" }
+      ]
+    }
+  },
+  "why": {
+    "heroTag": "Our Methodology",
+    "heroTitle": "The Face-to-Face Advantage",
+    "heroDescription": "We bridge the gap between rote memorization and true logical application through direct physical teaching methods.",
+    "points": [
+      {
+        "icon": "award",
+        "title": "Subject Specialists",
+        "description": "Our team teaches only the customized foundation curriculum in exactly 3 classes per section each week. This focus ensures deep preparation and clear focus."
+      },
+      {
+        "icon": "book-copy",
+        "title": "Custom Weekly Worksheets",
+        "description": "Every student receives printed, high-quality worksheets. These exercises break down theoretical principles into small, bite-sized logical steps."
+      },
+      {
+        "icon": "hourglass",
+        "title": "Active Future Roadmap",
+        "description": "We prioritize direct physical teaching and personal mentoring over software. While digital portals are on our active roadmap, we currently focus on high-quality classroom instruction."
+      }
+    ],
+    "steps": [
+      {
+        "icon": "printer",
+        "title": "Customized Physical Materials",
+        "description": "Our team manages printing and coordinates exam delivery directly at your campus. Our tests utilize objective evaluation structures to check logical application."
+      },
+      {
+        "icon": "edit-3",
+        "title": "Hand-Graded Analysis",
+        "description": "F2F academic advisors review exams to evaluate step-by-step logic, calculations, and general conceptual speed."
+      },
+      {
+        "icon": "file-spreadsheet",
+        "title": "Printed Monthly Cards",
+        "description": "We print monthly report cards that clearly detail performance across core topics. These profiles identify specific concept gaps before quarterly school exams."
+      }
+    ]
+  },
+  "contact": {
+    "heroTag": "Connect with Us",
+    "heroTitle": "Build Your School Foundation Track Today",
+    "heroDescription": "Schedule an on-site consultation to explore our custom timeline integration models.",
+    "fields": [
+      { "label": "Contact Name", "placeholder": "Your Name", "type": "text" },
+      { "label": "School Designation", "placeholder": "e.g. Principal / Trustee / Administrator", "type": "text" },
+      { "label": "School Name", "placeholder": "Full School Name", "type": "text" },
+      { "label": "Your Message", "placeholder": "Mention target class size, timelines, or potential schedule slots...", "type": "textarea" }
+    ],
+    "directContacts": [
+      { "icon": "phone", "label": "Primary Helpline", "value": "9347659286", "sub": "Call for immediate partnership support." },
+      { "icon": "building-2", "label": "Campus Audit Support", "value": "On-Site Consultations Available", "sub": "Our team visits your school campus directly to conduct baseline diagnostic evaluations and timeline sync assessments." }
+    ],
+    "emailGuide": {
+      "title": "Setting Up Your Official Email",
+      "description": "Need an institutional domain email? To set up a professional address like info@youracademyname.com, follow these simple steps:",
+      "steps": [
+        "Purchase a custom web domain (e.g., via Hostinger or GoDaddy).",
+        "Link your web domain with email hosts like Google Workspace (Gmail) or Zoho Mail).",
+        "Add DNS records (MX, SPF) to enable professional email services."
+      ]
+    }
+  },
+  "footer": {
+    "description": "Dedicated School Academic Excellence Partner delivering premium science and mathematics foundational support. Not an evening tuition hub—full in-school integration.",
+    "offerings": ["Academic Excellence Program (AEP)", "Combined JEE & NEET Foundations", "Mathematics, Physics, Chemistry & Biology", "Structured Onsite Physical Evaluations"],
+    "phone": "9347659286"
+  }
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F2F Admin Editor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Inter, sans-serif; background: #f8fafc; color: #102a43; }
+    .page-frame { max-width: 960px; margin: 2rem auto; padding: 1.5rem; background: white; border: 1px solid rgba(148,163,184,0.22); border-radius: 1rem; box-shadow: 0 24px 80px rgba(15,23,42,0.08); }
+    .section-card { background: #f8fafc; border: 1px solid rgba(148,163,184,0.2); border-radius: 1rem; padding: 1rem; }
+    label { font-weight: 700; }
+  </style>
+</head>
+<body>
+  <div class="page-frame">
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+      <div>
+        <h1 class="text-2xl font-bold text-slate-900">F2F Site Editor</h1>
+        <p class="text-sm text-slate-600 mt-1">Update your site text without coding. Save to apply changes.</p>
+      </div>
+      <a href="/" class="text-sm font-semibold text-slate-700 hover:text-slate-900">View website</a>
+    </div>
+
+    <% if (message) { %>
+      <div class="mb-4 rounded-xl bg-emerald-50 border border-emerald-200 p-4 text-emerald-900">
+        <strong>Success:</strong> <%= message %>
+      </div>
+    <% } %>
+    <% if (error) { %>
+      <div class="mb-4 rounded-xl bg-rose-50 border border-rose-200 p-4 text-rose-900">
+        <strong>Error:</strong> <%= error %>
+      </div>
+    <% } %>
+
+    <form action="/admin" method="POST" class="space-y-6">
+      <section class="section-card">
+        <h2 class="text-lg font-bold text-slate-900 mb-3">Site Settings</h2>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label>Site Name</label>
+            <input name="site[name]" value="<%= siteData.site.name %>" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label>Tagline</label>
+            <input name="site[tagline]" value="<%= siteData.site.tagline %>" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label>Page Title</label>
+            <input name="site[title]" value="<%= siteData.site.title %>" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label>Meta Description</label>
+            <input name="site[description]" value="<%= siteData.site.description %>" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-card">
+        <h2 class="text-lg font-bold text-slate-900 mb-3">Hero Section</h2>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label>Hero Tagline</label>
+            <input name="hero[tagline]" value="<%= siteData.hero.tagline %>" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label>Headline</label>
+            <input name="hero[headline]" value="<%= siteData.hero.headline %>" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label>Accent Headline</label>
+            <input name="hero[accentHeadline]" value="<%= siteData.hero.accentHeadline %>" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+          </div>
+          <div class="sm:col-span-2">
+            <label>Hero Description</label>
+            <textarea name="hero[paragraph]" rows="3" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm"><%= siteData.hero.paragraph %></textarea>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-card">
+        <h2 class="text-lg font-bold text-slate-900 mb-3">Partnership Section</h2>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label>Headline</label>
+            <input name="partnership[headline]" value="<%= siteData.partnership.headline %>" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label>Description</label>
+            <textarea name="partnership[description]" rows="3" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm"><%= siteData.partnership.description %></textarea>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-card">
+        <h2 class="text-lg font-bold text-slate-900 mb-3">AEP Program Section</h2>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label>Hero Title</label>
+            <input name="programmes[heroTitle]" value="<%= siteData.programmes.heroTitle %>" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label>Hero Description</label>
+            <textarea name="programmes[heroDescription]" rows="3" class="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm"><%= siteData.programmes.heroDescription %></textarea>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-card">
+        <h2 class="text-lg font-bold text-slate-900 mb-3">Navigation Labels</h2>
+        <div class="grid gap-4">
+          <% siteData.nav.forEach(function(item, index) { %>
+            <div class="grid gap-2 sm:grid-cols-[120px_1fr] items-center">
+              <label><%= item.id %></label>
+              <input name="nav[<%= index %>][label]" value="<%= item.label %>" class="w-full rounded-2xl border border-slate-200 px-4 py-3 text-sm" />
+            </div>
+          <% }) %>
+        </div>
+      </section>
+
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <button type="submit" class="inline-flex items-center justify-center rounded-xl bg-navy-900 px-5 py-3 text-sm font-bold text-white transition hover:bg-navy-800">Save Changes</button>
+        <p class="text-xs text-slate-500">This editor updates the core site text. It does not change layout or advanced sections.</p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
