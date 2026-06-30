@@ -12,13 +12,26 @@
     <meta property="og:title" content="<%= data.site.title %>">
     <meta property="og:description" content="<%= data.site.description %>">
     <meta property="og:image" content="<%= data.site.ogImage %>">
+    <meta property="og:image:alt" content="<%= data.site.title %>">
     <meta property="og:url" content="<%= data.site.url %>">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="<%= data.site.name %>">
+    <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="<%= data.site.title %>">
     <meta name="twitter:description" content="<%= data.site.description %>">
     <meta name="twitter:image" content="<%= data.site.ogImage %>">
+    <meta name="twitter:image:alt" content="<%= data.site.title %>">
     <meta name="theme-color" content="#0A2E73">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "<%= data.site.url %>",
+      "name": "<%= data.site.name %>",
+      "description": "<%= data.site.description %>"
+    }
+    </script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -248,7 +261,7 @@
             <a href="#" onclick="switchTab('home')" class="flex items-center gap-4 group">
                 <img src="<%= data.site.logo %>" alt="<%= data.site.name %> Logo" class="h-16 w-16 object-contain transition-transform group-hover:scale-105">
                 <div>
-                    <h1 class="font-extrabold text-slate-950 text-xl sm:text-2xl tracking-tight leading-tight uppercase"><%= data.site.name %></h1>
+                    <p class="font-extrabold text-slate-950 text-xl sm:text-2xl tracking-tight leading-tight uppercase"><%= data.site.name %></p>
                     <p class="text-[11px] font-semibold text-indigo-600 tracking-widest uppercase mt-0.5"><%= data.site.tagline %></p>
                 </div>
             </a>
@@ -361,7 +374,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-5xl rounded-[32px] bg-navy-900 px-6 py-12 text-center text-white shadow-[0_24px_80px_-32px_rgba(10,46,115,0.55)] sm:px-8">
                         <span class="text-xs font-bold text-orange-500 uppercase tracking-widest font-mono">Our Identity & Values</span>
-                        <h1 class="text-2xl sm:text-4xl font-extrabold text-white">Shaping Academic Foundations</h1>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold text-white">Shaping Academic Foundations</h2>
                         <p class="text-slate-300 max-w-xl mx-auto text-xs sm:text-sm">We are dedicated specialists focused on developing deep conceptual and structural clarity in core STEM disciplines inside schools.</p>
                     </div>
                 </div>
@@ -383,7 +396,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-5xl rounded-[32px] bg-navy-900 px-6 py-12 text-center text-white shadow-[0_24px_80px_-32px_rgba(10,46,115,0.55)] sm:px-8">
                         <span class="text-xs font-bold text-orange-500 uppercase tracking-widest font-mono">Collaborative Institutional Growth</span>
-                        <h1 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white">Your Trusted Academic Partner in Excellence</h1>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-white">Your Trusted Academic Partner in Excellence</h2>
                         <p class="text-slate-300 max-w-2xl mx-auto text-xs sm:text-sm">We enrich your curriculum directly within standard timetables, boosting student outcomes through expert mentoring and targeted support.</p>
                     </div>
                 </div>
@@ -396,7 +409,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-5xl rounded-[32px] bg-navy-900 px-6 py-12 text-center text-white shadow-[0_24px_80px_-32px_rgba(10,46,115,0.55)] sm:px-8">
                         <span class="text-xs font-bold text-orange-500 uppercase tracking-widest font-mono">Our Core Pathway</span>
-                        <h1 class="text-2xl sm:text-4xl font-extrabold text-white" style="font-family: 'Times New Roman', Times, serif !important;"><%= data.programmes.heroTitle %></h1>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold text-white" style="font-family: 'Times New Roman', Times, serif !important;"><%= data.programmes.heroTitle %></h2>
                         <p class="text-slate-300 max-w-xl mx-auto text-xs sm:text-sm font-light font-inter"><%= data.programmes.heroDescription %></p>
                     </div>
                 </div>
@@ -410,7 +423,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-5xl rounded-[32px] bg-navy-900 px-6 py-12 text-center text-white shadow-[0_24px_80px_-32px_rgba(10,46,115,0.55)] sm:px-8">
                         <span class="text-xs font-bold text-orange-500 uppercase tracking-widest font-mono">Real-time Curriculum Transparency</span>
-                        <h1 class="text-2xl sm:text-4xl font-extrabold text-white">Academic Progress & Test Calendar</h1>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold text-white">Academic Progress & Test Calendar</h2>
                         <p class="text-slate-300 max-w-xl mx-auto text-xs sm:text-sm font-light">We map syllabus completion and coordinate physical diagnostic assessments systematically, keeping administrators and parents fully informed.</p>
                     </div>
                 </div>
@@ -423,7 +436,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-5xl rounded-[32px] bg-navy-900 px-6 py-12 text-center text-white shadow-[0_24px_80px_-32px_rgba(10,46,115,0.55)] sm:px-8">
                         <span class="text-xs font-bold text-orange-500 uppercase tracking-widest font-mono font-bold">Our Methodology</span>
-                        <h1 class="text-2xl sm:text-4xl font-extrabold text-white">The Face-to-Face Advantage</h1>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold text-white">The Face-to-Face Advantage</h2>
                         <p class="text-slate-300 max-w-xl mx-auto text-xs sm:text-sm font-light"><%= data.why.heroDescription %></p>
                     </div>
                 </div>
@@ -436,7 +449,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="mx-auto max-w-5xl rounded-[32px] bg-navy-900 px-6 py-12 text-center text-white shadow-[0_24px_80px_-32px_rgba(10,46,115,0.55)] sm:px-8">
                         <span class="text-xs font-bold text-orange-500 uppercase tracking-widest font-mono">Connect with Us</span>
-                        <h1 class="text-2xl sm:text-4xl font-extrabold text-white">Build Your School Foundation Track Today</h1>
+                        <h2 class="text-2xl sm:text-4xl font-extrabold text-white">Build Your School Foundation Track Today</h2>
                         <p class="text-slate-300 max-w-xl mx-auto text-xs sm:text-sm">Schedule an on-site consultation to explore our custom timeline integration models.</p>
                     </div>
                 </div>
