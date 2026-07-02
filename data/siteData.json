@@ -20,7 +20,6 @@
     { "id": "about", "label": "About Us" },
     { "id": "partnership", "label": "School Partnership" },
     { "id": "programmes", "label": "AEP Program (Grades 6-10)" },
-    { "id": "tracker", "label": "Syllabus & Tests" },
     { "id": "why", "label": "Why F2F" },
     { "id": "contact", "label": "Contact Us" }
   ],
@@ -144,81 +143,8 @@
     "cardTitle": "Combined NEET & JEE Track",
     "cardText": "Strong mathematical proofing combined with comprehensive organic classification systems built directly into the school curriculum."
   },
-  "gradeTabs": [
-    {
-      "grade": 6,
-      "label": "Grade 6",
-      "title": "Pre-Foundation Building",
-      "expectation": "Smoothly transitions students from standard primary arithmetic to early deductive proofs and rigorous analytical observations.",
-      "subjects": [
-        { "title": "Mathematics", "items": ["Number Systems (Factors, Primes, LCM/HCF)", "Integers & Fractional Representations", "Basic Geometrical Shapes & Angles", "Introduction to Algebraic Expressions"] },
-        { "title": "Physics", "items": ["Motion and Unit Conversions", "Light, Shadows and Reflections", "Electric Currents and Circuit Elements", "Magnetic Poles and Inductions"] },
-        { "title": "Chemistry", "items": ["Sorting Materials into Groups", "Separation of Solid-Liquid Mixtures", "Physical vs. Chemical Changes", "Constituents of Water and Air"] },
-        { "title": "Biology", "items": ["Food Sources & Components (Vitamins, Proteins)", "Plants: Root Structures & Leaf Venation", "Body Movements & Skeletal Joints", "Living Organisms & Environmental Niches"] }
-      ]
-    },
-    {
-      "grade": 7,
-      "label": "Grade 7",
-      "title": "Quantitative Skill Development",
-      "expectation": "Develops numerical computation speed, critical deduction habits, and early analytical models using practical equations.",
-      "subjects": [
-        { "title": "Mathematics", "items": ["Integers: Properties & Calculations", "Fractions, Decimals, & Rational Equations", "Algebraic Equations in One Variable", "Lines, Angles & Properties of Triangles"] },
-        { "title": "Physics", "items": ["Heat and Thermal Properties", "Wind, Storms and Atmospheric Pressures", "Motion, Speed, and Time Formulations", "Electric Circuits, Conductors & Light Mirrors"] },
-        { "title": "Chemistry", "items": ["Acids, Bases, Salts (Indicators, pH introduction)", "Physical and Chemical Changes (Rusting, Crystals)", "Fibres: Natural & Synthetic Formulations", "Water Cycles & Soil Chemistry"] },
-        { "title": "Biology", "items": ["Photosynthesis and Autotrophic Nutrition", "Animal Nutrition (Human Digestive System)", "Aerobic & Anaerobic Respiration", "Circulation: Blood, Heart & Plant Transport"] }
-      ]
-    },
-    {
-      "grade": 8,
-      "label": "Grade 8",
-      "title": "Rigorous Conceptual Analysis",
-      "expectation": "Focuses on multi-step geometry proofs, mechanical calculations, cellular frameworks, and the algebraic principles that prepare students for high school.",
-      "subjects": [
-        { "title": "Mathematics", "items": ["Rational Numbers & Number Lines", "Linear Equations with Multi-Variables", "Properties of Polygons & Quadrilaterals", "Exponents, Powers & Mensuration Proofs"] },
-        { "title": "Physics", "items": ["Force, Pressure, and Liquid Pressures", "Friction: Static, Sliding, and Rolling", "Sound: Amplitude, Frequency & Echo Mechanics", "Chemical Effects of Electric Current"] },
-        { "title": "Chemistry", "items": ["Plastics and Polymers Formulations", "Metals and Non-Metals (Reactivity Series)", "Petroleum, Coal, & Fossil Fuel Properties", "Combustion, Flames & Calorific Values"] },
-        { "title": "Biology", "items": ["Crop Production & Modern Irrigation Systems", "Microorganisms: Pathogens, Fermentations", "Cell: Organelles, Plant vs. Animal Structures", "Animal Reproduction & Metamorphosis"] }
-      ]
-    },
-    {
-      "grade": 9,
-      "label": "Grade 9",
-      "title": "Advanced Foundational Core",
-      "expectation": "Aligns fully with school boards while introducing early Olympiad and JEE/NEET patterns, focusing on complex mathematical proofs and chemical mole concepts.",
-      "subjects": [
-        { "title": "Mathematics", "items": ["Real Numbers & Rationalization Proofs", "Polynomials & Factor Theorem", "Coordinate Geometry (Slope, Distance Formula)", "Lines, Angles & Triangle Congruence Theorems"] },
-        { "title": "Physics", "items": ["Kinematics: Velocity, Equations of Motion", "Forces and Newton's Laws of Motion", "Universal Law of Gravitation & Acceleration due to Gravity", "Work, Mechanical Energy & Sound wave mechanics"] },
-        { "title": "Chemistry", "items": ["Matter in Surroundings & Latent Heats", "Mixtures, Colloids & Solubility Curves", "Atoms, Molecules & Mole Concept (Calculation-focused)", "Structure of the Atom & Isotopes/Isobars"] },
-        { "title": "Biology", "items": ["Cell: Plasma Membrane, Nucleus, Organelles", "Plant Tissues (Meristematic, Permanent) & Animal Tissues", "Classification Principles & Diversity basics", "Why Do We Fall Ill (Infectious Diseases)"] }
-      ]
-    },
-    {
-      "grade": 10,
-      "label": "Grade 10",
-      "title": "Advanced School-JEE Integration",
-      "expectation": "Synthesizes board preparation with fundamental engineering electricity equations, organic carbon chemistry, and rigorous life process analysis.",
-      "subjects": [
-        { "title": "Mathematics", "items": ["Quadratic Equations & Complex Roots Analysis", "Arithmetic Progressions (Series, Summing Formulas)", "Introduction to Trigonometry & Identities", "Similar Triangles & Tangents to Circles"] },
-        { "title": "Physics", "items": ["Light: Reflection, Spherical Mirrors, Lens Formulas", "Refraction, Dispersion, Human Eye Mechanics", "Electricity: Ohm's Law, Resistance Networks, Heating", "Magnetic Effects, Solenoid Principles & Induction"] },
-        { "title": "Chemistry", "items": ["Chemical Reactions & Stoichiometry Equations", "Acids, Bases & pH Calculations", "Carbon & Organic Chemistry (Nomenclature)", "Metals, Non-Metals & Basic Metallurgy"] },
-        { "title": "Biology", "items": ["Life Processes (Nutrition, Respiration, Circulation)", "Control & Nervous Coordination, Hormonal Balance", "Asexual & Sexual Reproduction Mechanics", "Heredity, Monohybrid Crosses, Evolution Fundamentals"] }
-      ]
-    }
-  ],
-  "tracker": {
-    "heroTag": "Academic Year 2026-27 Framework",
-    "heroTitle": "Syllabus Milestones & Chapter Exam Dates",
-    "heroDescription": "Select a Grade tab below to view our systematic progress status alongside exact chapter-wise evaluation dates. (Exam dates are presently marked as NA and will be synchronized dynamically with your specific school calendar slots).",
-    "grades": [6, 7, 8, 9, 10],
-    "data": {
+  "syllabus": {
       "6": [
-        { "subject": "Mathematics", "chapter": "Number Systems (Factors, Primes, LCM/HCF)", "status": "Completed", "examDate": "NA" },
-        { "subject": "Mathematics", "chapter": "Integers & Fractional Representations", "status": "In Progress", "examDate": "NA" },
-        { "subject": "Physics", "chapter": "Motion and Unit Conversions", "status": "Completed", "examDate": "NA" },
-        { "subject": "Physics", "chapter": "Light, Shadows and Reflections", "status": "In Progress", "examDate": "NA" },
-        { "subject": "Chemistry", "chapter": "Sorting Materials into Groups", "status": "Completed", "examDate": "NA" },
-        { "subject": "Chemistry", "chapter": "Separation of Solid-Liquid Mixtures", "status": "In Progress", "examDate": "NA" },
         { "subject": "Biology", "chapter": "Food Sources & Components (Vitamins, Proteins)", "status": "Completed", "examDate": "NA" },
         { "subject": "Biology", "chapter": "Plants: Root Structures & Leaf Venation", "status": "In Progress", "examDate": "NA" }
       ],
@@ -262,8 +188,66 @@
         { "subject": "Biology", "chapter": "Life Processes (Nutrition, Respiration, Circulation)", "status": "Completed", "examDate": "NA" },
         { "subject": "Biology", "chapter": "Heredity, Monohybrid Crosses, Evolution Fundamentals", "status": "Planned", "examDate": "NA" }
       ]
+    },
+  "gradeTabs": [
+    {
+      "grade": 6,
+      "label": "Grade 6",
+      "title": "Grade 6 Syllabus",
+      "expectation": "Foundational biology concepts and observational skills.",
+      "subjects": [
+        { "title": "Biology", "items": ["Food Sources & Components (Vitamins, Proteins)", "Plants: Root Structures & Leaf Venation"] }
+      ]
+    },
+    {
+      "grade": 7,
+      "label": "Grade 7",
+      "title": "Grade 7 Syllabus",
+      "expectation": "Build arithmetic fluency and basic physical science intuition.",
+      "subjects": [
+        { "title": "Mathematics", "items": ["Integers: Properties & Calculations", "Fractions, Decimals, & Rational Equations"] },
+        { "title": "Physics", "items": ["Heat and Thermal Properties", "Wind, Storms and Atmospheric Pressures"] },
+        { "title": "Chemistry", "items": ["Acids, Bases, Salts (Indicators, pH Intro)", "Physical and Chemical Changes (Rusting/Crystals)"] },
+        { "title": "Biology", "items": ["Photosynthesis and Autotrophic Nutrition", "Animal Nutrition (Human Digestive System)"] }
+      ]
+    },
+    {
+      "grade": 8,
+      "label": "Grade 8",
+      "title": "Grade 8 Syllabus",
+      "expectation": "Develop algebraic reasoning and applied physical concepts.",
+      "subjects": [
+        { "title": "Mathematics", "items": ["Rational Numbers & Number Lines", "Linear Equations with Multi-Variables"] },
+        { "title": "Physics", "items": ["Force, Pressure, and Liquid Pressures", "Friction: Static, Sliding, and Rolling"] },
+        { "title": "Chemistry", "items": ["Plastics and Polymers Formulations", "Metals and Non-Metals (Reactivity Series)"] },
+        { "title": "Biology", "items": ["Crop Production & Modern Irrigation Systems", "Microorganisms: Pathogens, Fermentations"] }
+      ]
+    },
+    {
+      "grade": 9,
+      "label": "Grade 9",
+      "title": "Grade 9 Syllabus",
+      "expectation": "Strengthen proofs, kinematics, and lab-oriented chemistry skills.",
+      "subjects": [
+        { "title": "Mathematics", "items": ["Real Numbers & Rationalization Proofs", "Polynomials & Factor Theorem"] },
+        { "title": "Physics", "items": ["Kinematics: Velocity, Equations of Motion", "Forces and Newton's Laws of Motion"] },
+        { "title": "Chemistry", "items": ["Matter in Surroundings & Latent Heats", "Mixtures, Colloids & Solubility Curves"] },
+        { "title": "Biology", "items": ["Cell: Plasma Membrane, Nucleus, Organelles", "Why Do We Fall Ill (Infectious Diseases)"] }
+      ]
+    },
+    {
+      "grade": 10,
+      "label": "Grade 10",
+      "title": "Grade 10 Syllabus",
+      "expectation": "Prepare for advanced problem solving and application-focused assessments.",
+      "subjects": [
+        { "title": "Mathematics", "items": ["Quadratic Equations & Complex Roots Analysis", "Arithmetic Progressions (Series, Summing Formulas)"] },
+        { "title": "Physics", "items": ["Light: Reflection, Spherical Mirrors, Lens Formulas", "Refraction, Dispersion, Human Eye Mechanics"] },
+        { "title": "Chemistry", "items": ["Chemical Reactions & Stoichiometry Equations", "Acids, Bases & pH Calculations"] },
+        { "title": "Biology", "items": ["Life Processes (Nutrition, Respiration, Circulation)", "Heredity, Monohybrid Crosses, Evolution Fundamentals"] }
+      ]
     }
-  },
+  ],
   "why": {
     "heroTag": "Our Methodology",
     "heroTitle": "The Face-to-Face Advantage",
@@ -308,13 +292,14 @@
     "heroTitle": "Build Your School Foundation Track Today",
     "heroDescription": "Schedule an on-site consultation to explore our custom timeline integration models.",
     "fields": [
-      { "label": "Contact Name", "placeholder": "Your Name", "type": "text" },
-      { "label": "School Designation", "placeholder": "e.g. Principal / Trustee / Administrator", "type": "text" },
-      { "label": "School Name", "placeholder": "Full School Name", "type": "text" },
-      { "label": "Your Message", "placeholder": "Mention target class size, timelines, or potential schedule slots...", "type": "textarea" }
+      { "label": "Contact Name", "name": "name", "placeholder": "Your Name", "type": "text" },
+      { "label": "School Designation", "name": "designation", "placeholder": "e.g. Principal / Trustee / Administrator", "type": "text" },
+      { "label": "School Name", "name": "schoolName", "placeholder": "Full School Name", "type": "text" },
+      { "label": "Your Message", "name": "message", "placeholder": "Mention target class size, timelines, or potential schedule slots...", "type": "textarea" }
     ],
     "directContacts": [
       { "icon": "phone", "label": "Primary Helpline", "value": "9347659286", "sub": "Call for immediate partnership support." },
+      { "icon": "message-circle", "label": "WhatsApp", "value": "+91 93476 59286", "link": "https://wa.me/919347659286", "sub": "Chat with us on WhatsApp for fast support." },
       { "icon": "building-2", "label": "Campus Audit Support", "value": "On-Site Consultations Available", "sub": "Our team visits your school campus directly to conduct baseline diagnostic evaluations and timeline sync assessments." }
     ],
     "emailGuide": {

@@ -4,15 +4,21 @@ Minimal Express + EJS website for Foundation To Future Academy.
 
 ## Local setup
 
-1. Install dependencies:
+1. Copy `.env.example` to `.env` and fill in your Gmail credentials:
+   ```bash
+   cp .env.example .env
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-2. Start the app:
+3. Start the app:
    ```bash
    npm start
    ```
-3. Open http://localhost:3000
+4. Open http://localhost:3000
+
+> Note: `.env` is listed in `.gitignore`, so secret credentials are not committed.
 
 ## Deploying
 
